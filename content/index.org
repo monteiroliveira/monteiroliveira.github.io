@@ -1,4 +1,4 @@
-#+TITLE: Good Morning boy
+#+TITLE: Good Morning
 #+AUTHOR: Guilherme Monteiro de Oliveira
 #+SETUPFILE: ../theme.setup
 #+OPTIONS: toc:nil
@@ -6,7 +6,7 @@
 [[../resources/runescape-osrs.gif]]
 
 * Welcome
-Yeah, yeah, I know, the site looks ugly, but that doesn't matter in the end, since I work with backend and not frontend, so honestly, I don't have the time and patience to mess with CSS... Feel free to take a look around, all pages will be listed here. In theory, the main thing is the list of repositories. 
+Yeah, yeah, I know, the site looks ugly, but that doesn't matter in the end, since I work with backend and not frontend, so honestly, I don't have the time and patience to mess with CSS... Feel free to take a look around, all pages will be listed here. In theory, the main thing is the list of repositories.
 
 The site is (at least so far) hosted by GitHub pages, but that may eventually change, so the site may go down at some point.
 \\
