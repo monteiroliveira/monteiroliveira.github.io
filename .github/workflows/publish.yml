@@ -18,8 +18,15 @@ jobs:
       - name: Build the site
         run: ./build.sh
 
+      - name: Send files
+        run: |
+             mkdir deploy
+             cp -r resources deploy
+             cp -r style deploy
+             cp -r public/* deploy
+
       - name: Publish generated content in gh-pages branch
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: public
+          folder: deploy
