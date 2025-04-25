@@ -1,0 +1,7 @@
+#+TITLE: About
+#+AUTHOR: Guilherme Monteiro de Oliveira
+#+SETUPFILE: ../theme.setup
+#+OPTIONS: num:nil
+
+#+INCLUDE: ./back.org
+#+INCLUDE: ./footer.org

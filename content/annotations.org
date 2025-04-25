@@ -1,0 +1,23 @@
+#+TITLE: Annotations
+#+AUTHOR: Guilherme Monteiro de Oliveira
+#+SETUPFILE: ../theme.setup
+#+OPTIONS: toc:nil
+
+#+BEGIN_EXPORT html
+<input type="text" id="searchBox" placeholder="Search..." onkeyup="orgSearch()">
+
+<script>
+function orgSearch() {
+  let input = document.getElementById("searchBox").value.toLowerCase();
+  let elements = document.querySelectorAll("body *:not(script):not(style):not(h1)");
+  elements.forEach(el => {
+    if (el.children.length === 0 && el.textContent.trim() && el.classList.contains("searchable")) {
+      el.style.display = el.textContent.toLowerCase().includes(input) ? "" : "none";
+    }
+  });
+}
+</script>
+#+END_EXPORT
+
+#+INCLUDE: ./back.org
+#+INCLUDE: ./footer.org

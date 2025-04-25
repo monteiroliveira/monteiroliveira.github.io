@@ -1,0 +1,41 @@
+body {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+pre {
+    border: 1px solid #282828;
+    border-radius: 3px;
+    background-color: #282828;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+}
+pre.src {
+    position: relative;
+    overflow: auto;
+}
+
+a:link, a:visited {
+  font-weight: bold;
+  color: wheat;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.link-grid {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+}
+
+#searchBox {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
