@@ -24,6 +24,7 @@ jobs:
              cp -r resources deploy
              cp -r style deploy
              cp -r public/* deploy
+             cp -r scripts deploy
 
       - name: Publish generated content in gh-pages branch
         uses: JamesIves/github-pages-deploy-action@v4
