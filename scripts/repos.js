@@ -64,7 +64,7 @@ function buildRepoElementBody(repos) {
 }
 
 document.getElementById('nextPage').addEventListener('click', function() {
-    if (page < (countRepos - perPage)) {
+    if (page <= (countRepos - perPage)) {
         page++;
         buildReposElement();
     }
