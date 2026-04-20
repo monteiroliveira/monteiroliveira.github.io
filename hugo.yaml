@@ -1,0 +1,15 @@
+baseURL: https://monteiroliveira.com/
+languageCode: en-us
+title: Monteir@livera
+
+menu:
+  main:
+    - name: GitHub
+      weight: 1
+      url: "https://github.com/monteiroliveira/"
+      params:
+        icon: github
+
+module:
+  imports:
+    - path: github.com/imfing/hextra
